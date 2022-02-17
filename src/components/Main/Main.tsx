@@ -1,17 +1,12 @@
-import { MainStyled } from "./Main.styled"
-import React, { ReactNode } from 'react'
-
+import { MainStyled } from "./Main.styled";
+import React, { ReactNode } from "react";
 
 type Props = {
-    children?: ReactNode
-  }
-  
-const Main = ({children}:Props) => {
-    return(
-        <MainStyled>
-             {children}
-        </MainStyled>
-    )
-}
+  children?: ReactNode;
+};
 
-export default Main
+const Main = ({ children }: Props) => {
+  return <MainStyled>{children}</MainStyled>;
+};
+
+export default Main;
