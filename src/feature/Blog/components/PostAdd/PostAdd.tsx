@@ -20,7 +20,6 @@ const PostAdd: React.FunctionComponent<any> = ({ addTodo }) => {
       body: "",
     },
     onSubmit: (values, actions) => {
-      console.log(values);
       addTodoItem(values);
       actions.resetForm();
     },

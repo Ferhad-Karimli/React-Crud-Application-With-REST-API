@@ -62,7 +62,6 @@ export const PostCard = ({ id, title, body }: any) => {
     if (response?.status === 200) {
       dispatch(deleteItemData(id));
     }
-    console.log(response);
   };
 
   return (
@@ -90,7 +89,6 @@ export const PostCard = ({ id, title, body }: any) => {
         }}
       >
         <Box>
-         
           <IconButton aria-label="settings" color="error" onClick={removePost}>
             <DeleteIcon />
           </IconButton>

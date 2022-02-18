@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# It is Blog Page . Built with React & Typescript 
+
+## Used tecnelogies is redux-tookit,axios,formik
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
