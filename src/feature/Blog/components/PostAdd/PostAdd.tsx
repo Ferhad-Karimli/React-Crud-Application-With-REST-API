@@ -25,7 +25,7 @@ const PostAdd: React.FunctionComponent<any> = ({ addTodo }) => {
     },
   });
 
-  const addTodoItem = async (form: any) => {
+  const addTodoItem = async (form: object) => {
     let response = await addPost(form);
 
     if (response?.status === 201) {

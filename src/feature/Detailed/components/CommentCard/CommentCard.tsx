@@ -1,21 +1,18 @@
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import { CommentCardStyled }from "./CommentCard.styled"
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import { CommentCardStyled } from "./CommentCard.styled";
 
-
-export const CommentCard = ({id,body}:any) => {
+export const CommentCard = ({ id, body }: any) => {
   return (
-    <CommentCardStyled >
+    <CommentCardStyled>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Comment
         </Typography>
         <Typography variant="h6" component="div">
-           {body}
+          {body}
         </Typography>
       </CardContent>
     </CommentCardStyled>
   );
-}
+};

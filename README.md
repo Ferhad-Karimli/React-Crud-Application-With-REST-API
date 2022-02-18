@@ -1,7 +1,7 @@
 # It is Blog Page . Built with React & Typescript 
 
 ## Used tecnelogies during building application : 
-##  redux-tookit,axios,formik,hooks,react-router,styled-components,Material UI
+##  redux-tookit,axios,formik,hooks,react-router,react-toastify,styled-components,Material UI
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
