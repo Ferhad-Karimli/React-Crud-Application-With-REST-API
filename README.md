@@ -1,7 +1,12 @@
-# It is Blog Page . Built with React & Typescript 
+# React CRUD Application . 
+
+## People can write,update , remove  posts through aplication  
+## Built with React.js & Typescript .
 
 ## Used tecnelogies during building application : 
 ##  redux-tookit,axios,formik,hooks,react-router,react-toastify,styled-components,Material UI
+
+[!Blogs]("Blogapp.jpeg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
