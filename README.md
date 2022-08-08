@@ -6,7 +6,7 @@
 ## Used tecnelogies during building application : 
 ##  redux-tookit,axios,formik,hooks,react-router,react-toastify,styled-components,Material UI
 
-[!Blogs]("Blogapp.jpeg)
+![Blogs](Blogapp.jpeg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
